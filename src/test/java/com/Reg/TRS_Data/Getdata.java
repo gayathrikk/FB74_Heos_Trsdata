@@ -26,7 +26,7 @@ public class Getdata {
 	{
 		
 		  DesiredCapabilities dc = DesiredCapabilities.chrome();
-	        URL url = new URL("http://172.20.23.7:5555/wd/hub");
+	        URL url = new URL("http://172.12.20.99:4444/wd/hub");
 	        driver = new RemoteWebDriver(url, dc);
 	
 	       
@@ -175,7 +175,7 @@ public class Getdata {
 
 	@Test(priority = 4)
 	public void getTrs() throws InterruptedException {
-	    for (int i = 1; i <= 700; i++) {
+	    for (int i = 1; i <= 400; i++) {
 	        WebElement section = driver.findElement(By.xpath("(//div[@class='paragraph'])[2]"));
 	        String sectionText = section.getText();
 	        System.out.println(sectionText);

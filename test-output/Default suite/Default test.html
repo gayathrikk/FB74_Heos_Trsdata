@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Jan 19 12:29:18 IST 2024</td>
+<td>Started on:</td><td>Fri Jan 19 15:24:32 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>3229 seconds (3229299 ms)</td>
+<tr><td>Total time:</td><td>3293 seconds (3293763 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,16 +76,18 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.Reg.TRS_Data.Getdata.getTrs()'><b>getTrs</b><br>Test class: com.Reg.TRS_Data.Getdata</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@class=&apos;paragraph&apos;])[2]&quot;}
+<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
   (Session info: chrome=120.0.6099.109)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;vivobook-asuslaptop-x512flc-x512fl&apos;, ip: &apos;192.168.0.169&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2.0-36-generic&apos;, java.version: &apos;17.0.7&apos;
+System info: host: &apos;vivobook-asuslaptop-x512flc-x512fl&apos;, ip: &apos;172.16.21.143&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2.0-36-generic&apos;, java.version: &apos;17.0.7&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:38391}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.17.0.2:4444/sessio..., se:cdpVersion: 120.0.6099.109, se:vnc: ws://172.17.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.17.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f72fd9cb706990fc1d9f3fd6523c16b2
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:39393}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.28.0.2:4444/sessio..., se:cdpVersion: 120.0.6099.109, se:vnc: ws://172.28.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.28.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b36133c2ab73d65acaa29bf3868831f4
 *** Element info: {Using=xpath, value=(//div[@class=&apos;paragraph&apos;])[2]}
-	at jdk.internal.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -98,7 +100,7 @@ Session ID: f72fd9cb706990fc1d9f3fd6523c16b2
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.Reg.TRS_Data.Getdata.getTrs(Getdata.java:182)
+	at com.Reg.TRS_Data.Getdata.getTrs(Getdata.java:179)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -127,17 +129,19 @@ Session ID: f72fd9cb706990fc1d9f3fd6523c16b2
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace127840100", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace127840100'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@class=&apos;paragraph&apos;])[2]&quot;}
+</pre></div><a href='#' onClick='toggleBox("stack-trace729509720", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace729509720'><pre>org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
   (Session info: chrome=120.0.6099.109)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;vivobook-asuslaptop-x512flc-x512fl&apos;, ip: &apos;192.168.0.169&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2.0-36-generic&apos;, java.version: &apos;17.0.7&apos;
+System info: host: &apos;vivobook-asuslaptop-x512flc-x512fl&apos;, ip: &apos;172.16.21.143&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2.0-36-generic&apos;, java.version: &apos;17.0.7&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:38391}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.17.0.2:4444/sessio..., se:cdpVersion: 120.0.6099.109, se:vnc: ws://172.17.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.17.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f72fd9cb706990fc1d9f3fd6523c16b2
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:39393}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.28.0.2:4444/sessio..., se:cdpVersion: 120.0.6099.109, se:vnc: ws://172.28.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.28.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b36133c2ab73d65acaa29bf3868831f4
 *** Element info: {Using=xpath, value=(//div[@class=&apos;paragraph&apos;])[2]}
-	at jdk.internal.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -150,7 +154,7 @@ Session ID: f72fd9cb706990fc1d9f3fd6523c16b2
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.Reg.TRS_Data.Getdata.getTrs(Getdata.java:182)
+	at com.Reg.TRS_Data.Getdata.getTrs(Getdata.java:179)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -180,7 +184,7 @@ Session ID: f72fd9cb706990fc1d9f3fd6523c16b2
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>3189</td>
+<td>3251</td>
 <td>com.Reg.TRS_Data.Getdata@6cd28fa7</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -193,7 +197,7 @@ Session ID: f72fd9cb706990fc1d9f3fd6523c16b2
 <tr>
 <td title='com.Reg.TRS_Data.Getdata.login()'><b>login</b><br>Test class: com.Reg.TRS_Data.Getdata</td>
 <td></td>
-<td>14</td>
+<td>13</td>
 <td>com.Reg.TRS_Data.Getdata@6cd28fa7</td></tr>
 <tr>
 <td title='com.Reg.TRS_Data.Getdata.registration()'><b>registration</b><br>Test class: com.Reg.TRS_Data.Getdata</td>
@@ -203,7 +207,7 @@ Session ID: f72fd9cb706990fc1d9f3fd6523c16b2
 <tr>
 <td title='com.Reg.TRS_Data.Getdata.series_set()'><b>series_set</b><br>Test class: com.Reg.TRS_Data.Getdata</td>
 <td></td>
-<td>16</td>
+<td>20</td>
 <td>com.Reg.TRS_Data.Getdata@6cd28fa7</td></tr>
 </table><p>
 </body>
