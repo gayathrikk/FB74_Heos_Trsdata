@@ -1,41 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-25T10:54:44 IST" name="Default suite" finished-at="2024-01-25T10:56:19 IST" duration-ms="94697">
+  <suite started-at="2024-01-25T12:19:08 IST" name="Default suite" finished-at="2024-01-25T12:21:23 IST" duration-ms="135130">
     <groups>
     </groups>
-    <test started-at="2024-01-25T10:54:44 IST" name="Default test" finished-at="2024-01-25T10:56:19 IST" duration-ms="94697">
-      <class name="com.Reg.TRS_Data.Trsdata_Fb40_Heos">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.Reg.TRS_Data.Trsdata_Fb40_Heos@1af2d44a]" started-at="2024-01-25T10:54:44 IST" name="setup" finished-at="2024-01-25T10:54:45 IST" duration-ms="1441" status="PASS">
+    <test started-at="2024-01-25T12:19:08 IST" name="Default test" finished-at="2024-01-25T12:21:23 IST" duration-ms="135130">
+      <class name="com.Reg.TRS_Data.Trsdata_Fb74_Nisl">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Reg.TRS_Data.Trsdata_Fb74_Nisl@18d87d80]" started-at="2024-01-25T12:19:08 IST" name="setup" finished-at="2024-01-25T12:19:09 IST" duration-ms="689" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login()[pri:1, instance:com.Reg.TRS_Data.Trsdata_Fb40_Heos@1af2d44a]" started-at="2024-01-25T10:54:46 IST" name="login" finished-at="2024-01-25T10:54:56 IST" duration-ms="10694" status="PASS">
+        <test-method signature="login()[pri:1, instance:com.Reg.TRS_Data.Trsdata_Fb74_Nisl@18d87d80]" started-at="2024-01-25T12:19:09 IST" name="login" finished-at="2024-01-25T12:19:18 IST" duration-ms="8836" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="series_set()[pri:2, instance:com.Reg.TRS_Data.Trsdata_Fb40_Heos@1af2d44a]" started-at="2024-01-25T10:54:56 IST" name="series_set" finished-at="2024-01-25T10:55:16 IST" duration-ms="19388" status="PASS">
+        <test-method signature="series_set()[pri:2, instance:com.Reg.TRS_Data.Trsdata_Fb74_Nisl@18d87d80]" started-at="2024-01-25T12:19:18 IST" name="series_set" finished-at="2024-01-25T12:19:35 IST" duration-ms="17458" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- series_set -->
-        <test-method signature="registration()[pri:3, instance:com.Reg.TRS_Data.Trsdata_Fb40_Heos@1af2d44a]" started-at="2024-01-25T10:55:16 IST" name="registration" finished-at="2024-01-25T10:55:22 IST" duration-ms="6078" status="PASS">
+        <test-method signature="registration()[pri:3, instance:com.Reg.TRS_Data.Trsdata_Fb74_Nisl@18d87d80]" started-at="2024-01-25T12:19:35 IST" name="registration" finished-at="2024-01-25T12:19:41 IST" duration-ms="6084" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registration -->
-        <test-method signature="getTrs()[pri:4, instance:com.Reg.TRS_Data.Trsdata_Fb40_Heos@1af2d44a]" started-at="2024-01-25T10:55:22 IST" name="getTrs" finished-at="2024-01-25T10:55:43 IST" duration-ms="21183" status="PASS">
+        <test-method signature="getTrs()[pri:4, instance:com.Reg.TRS_Data.Trsdata_Fb74_Nisl@18d87d80]" started-at="2024-01-25T12:19:41 IST" name="getTrs" finished-at="2024-01-25T12:20:02 IST" duration-ms="20987" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTrs -->
-        <test-method signature="getTrs2()[pri:5, instance:com.Reg.TRS_Data.Trsdata_Fb40_Heos@1af2d44a]" started-at="2024-01-25T10:55:43 IST" name="getTrs2" finished-at="2024-01-25T10:56:18 IST" duration-ms="34951" status="PASS">
+        <test-method signature="getTrs2()[pri:5, instance:com.Reg.TRS_Data.Trsdata_Fb74_Nisl@18d87d80]" started-at="2024-01-25T12:20:02 IST" name="getTrs2" finished-at="2024-01-25T12:20:37 IST" duration-ms="35204" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTrs2 -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.Reg.TRS_Data.Trsdata_Fb40_Heos@1af2d44a]" started-at="2024-01-25T10:56:18 IST" name="close" finished-at="2024-01-25T10:56:19 IST" duration-ms="935" status="PASS">
+        <test-method signature="getTrs3()[pri:6, instance:com.Reg.TRS_Data.Trsdata_Fb74_Nisl@18d87d80]" started-at="2024-01-25T12:20:37 IST" name="getTrs3" finished-at="2024-01-25T12:21:22 IST" duration-ms="44969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTrs3 -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.Reg.TRS_Data.Trsdata_Fb74_Nisl@18d87d80]" started-at="2024-01-25T12:21:22 IST" name="close" finished-at="2024-01-25T12:21:23 IST" duration-ms="876" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- com.Reg.TRS_Data.Trsdata_Fb40_Heos -->
+      </class> <!-- com.Reg.TRS_Data.Trsdata_Fb74_Nisl -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
