@@ -75,7 +75,7 @@
           <artifactId>maven-surefire-plugin</artifactId>
           <version>3.0.0-M5</version>
           <configuration>
-            <test>com.Reg.TRS_Data.Trsdata_Fb40_Nisl</test>
+            <test>com.Reg.TRS_Data.Trsdata_Fb40_Heos</test>
           </configuration>
         </plugin>
       </plugins>
