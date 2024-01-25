@@ -6,7 +6,7 @@
       <class name="com.Reg.TRS_Data.Getdata">
         <methods>
           <include name="close"/>
-          <include name="getTrs"/>
+          <include name="getTrs2"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.Reg.TRS_Data.Getdata -->

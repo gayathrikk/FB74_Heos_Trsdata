@@ -185,7 +185,7 @@ public class Trsdata_Fb40_Nisl {
 	
 	@Test(priority = 5)
 	public void getTrs2() throws InterruptedException {
-		for (int i = 1; i <= 200; i++) 
+		for (int i = 1; i <= 100; i++) 
 		{
 			WebElement section = driver.findElement(By.xpath("(//div[@class='paragraph'])[2]"));
 			String sectionText = section.getText();
@@ -194,6 +194,21 @@ public class Trsdata_Fb40_Nisl {
 			trsRot();
 			nextSection();
 			Thread.sleep(15000);
+			System.out.println("");
+		}
+	}
+	
+	@Test(priority = 6)
+	public void getTrs3() throws InterruptedException {
+		for (int i = 1; i <= 110; i++) 
+		{
+			WebElement section = driver.findElement(By.xpath("(//div[@class='paragraph'])[2]"));
+			String sectionText = section.getText();
+			System.out.println(sectionText);
+
+			trsRot();
+			nextSection();
+			Thread.sleep(20000);
 			System.out.println("");
 		}
 	}
