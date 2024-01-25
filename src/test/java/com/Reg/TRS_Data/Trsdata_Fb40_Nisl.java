@@ -10,12 +10,11 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Getdata {
+public class Trsdata_Fb40_Nisl {
 	
 	private RemoteWebDriver driver;
 	private WebDriverWait wait;
@@ -240,4 +239,5 @@ public class Getdata {
 	public void close() {
 		driver.quit();
 	}
+
 }

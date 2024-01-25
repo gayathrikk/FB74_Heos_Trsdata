@@ -10,12 +10,11 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Getdata {
+public class Trsdata_Fb40_Heos {
 	
 	private RemoteWebDriver driver;
 	private WebDriverWait wait;
@@ -141,7 +140,16 @@ public class Getdata {
  		    System.out.println(" FTB-40 not clicked: " + e.getMessage());
  		}
     	 
-    	 By arrowLeftLocator = By.xpath("(//i[@class='fa fa-arrow-circle-left ngx-gallery-icon-content'])[2]");
+    	 try {
+  		    WebElement heos = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//a[@class='tab-link'])[4]")));
+  		    heos.click();
+  		    System.out.println("Heos clicked successfully.");
+  		    Thread.sleep(2000);
+  		} catch (Exception e) {
+  		    System.out.println(" Heos not clicked: " + e.getMessage());
+  		}
+    	 
+    	 By arrowLeftLocator = By.xpath("(//i[@class='fa fa-arrow-circle-left ngx-gallery-icon-content'])[5]");
 
     	 for (int i = 0; i < 5; i++) {
     	     driver.findElement(arrowLeftLocator).click();
@@ -171,7 +179,7 @@ public class Getdata {
 
 	@Test(priority = 4)
 	public void getTrs() throws InterruptedException {
-		for (int i = 1; i <= 200; i++) 
+		for (int i = 1; i <= 2; i++) 
 		{
 			WebElement section = driver.findElement(By.xpath("(//div[@class='paragraph'])[2]"));
 			String sectionText = section.getText();
@@ -186,7 +194,7 @@ public class Getdata {
 	
 	@Test(priority = 5)
 	public void getTrs2() throws InterruptedException {
-		for (int i = 1; i <= 200; i++) 
+		for (int i = 1; i <= 2; i++) 
 		{
 			WebElement section = driver.findElement(By.xpath("(//div[@class='paragraph'])[2]"));
 			String sectionText = section.getText();
@@ -240,4 +248,5 @@ public class Getdata {
 	public void close() {
 		driver.quit();
 	}
+
 }
