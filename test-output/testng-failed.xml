@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Reg.TRS_Data.Getdata">
+      <class name="com.Reg.TRS_Data.Trsdata_Fb40_Heos">
         <methods>
           <include name="close"/>
+          <include name="getTrs"/>
           <include name="getTrs2"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.Reg.TRS_Data.Getdata -->
+      </class> <!-- com.Reg.TRS_Data.Trsdata_Fb40_Heos -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

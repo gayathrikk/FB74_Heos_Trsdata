@@ -200,7 +200,7 @@ public class Trsdata_Fb40_Nisl {
 	
 	@Test(priority = 6)
 	public void getTrs3() throws InterruptedException {
-		for (int i = 1; i <= 110; i++) 
+		for (int i = 1; i <= 113; i++) 
 		{
 			WebElement section = driver.findElement(By.xpath("(//div[@class='paragraph'])[2]"));
 			String sectionText = section.getText();

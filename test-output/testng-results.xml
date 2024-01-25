@@ -1,111 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-25T09:35:38 IST" name="Default suite" finished-at="2024-01-25T10:43:12 IST" duration-ms="4053460">
+  <suite started-at="2024-01-25T10:54:44 IST" name="Default suite" finished-at="2024-01-25T10:56:19 IST" duration-ms="94697">
     <groups>
     </groups>
-    <test started-at="2024-01-25T09:35:38 IST" name="Default test" finished-at="2024-01-25T10:43:12 IST" duration-ms="4053460">
-      <class name="com.Reg.TRS_Data.Getdata">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.Reg.TRS_Data.Getdata@1af2d44a]" started-at="2024-01-25T09:35:38 IST" name="setup" finished-at="2024-01-25T09:35:39 IST" duration-ms="752" status="PASS">
+    <test started-at="2024-01-25T10:54:44 IST" name="Default test" finished-at="2024-01-25T10:56:19 IST" duration-ms="94697">
+      <class name="com.Reg.TRS_Data.Trsdata_Fb40_Heos">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Reg.TRS_Data.Trsdata_Fb40_Heos@1af2d44a]" started-at="2024-01-25T10:54:44 IST" name="setup" finished-at="2024-01-25T10:54:45 IST" duration-ms="1441" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login()[pri:1, instance:com.Reg.TRS_Data.Getdata@1af2d44a]" started-at="2024-01-25T09:35:39 IST" name="login" finished-at="2024-01-25T09:35:48 IST" duration-ms="8355" status="PASS">
+        <test-method signature="login()[pri:1, instance:com.Reg.TRS_Data.Trsdata_Fb40_Heos@1af2d44a]" started-at="2024-01-25T10:54:46 IST" name="login" finished-at="2024-01-25T10:54:56 IST" duration-ms="10694" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="series_set()[pri:2, instance:com.Reg.TRS_Data.Getdata@1af2d44a]" started-at="2024-01-25T09:35:48 IST" name="series_set" finished-at="2024-01-25T09:36:05 IST" duration-ms="16994" status="PASS">
+        <test-method signature="series_set()[pri:2, instance:com.Reg.TRS_Data.Trsdata_Fb40_Heos@1af2d44a]" started-at="2024-01-25T10:54:56 IST" name="series_set" finished-at="2024-01-25T10:55:16 IST" duration-ms="19388" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- series_set -->
-        <test-method signature="registration()[pri:3, instance:com.Reg.TRS_Data.Getdata@1af2d44a]" started-at="2024-01-25T09:36:05 IST" name="registration" finished-at="2024-01-25T09:36:11 IST" duration-ms="6093" status="PASS">
+        <test-method signature="registration()[pri:3, instance:com.Reg.TRS_Data.Trsdata_Fb40_Heos@1af2d44a]" started-at="2024-01-25T10:55:16 IST" name="registration" finished-at="2024-01-25T10:55:22 IST" duration-ms="6078" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registration -->
-        <test-method signature="getTrs()[pri:4, instance:com.Reg.TRS_Data.Getdata@1af2d44a]" started-at="2024-01-25T09:36:11 IST" name="getTrs" finished-at="2024-01-25T10:11:42 IST" duration-ms="2131018" status="PASS">
+        <test-method signature="getTrs()[pri:4, instance:com.Reg.TRS_Data.Trsdata_Fb40_Heos@1af2d44a]" started-at="2024-01-25T10:55:22 IST" name="getTrs" finished-at="2024-01-25T10:55:43 IST" duration-ms="21183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTrs -->
-        <test-method signature="getTrs2()[pri:5, instance:com.Reg.TRS_Data.Getdata@1af2d44a]" started-at="2024-01-25T10:11:42 IST" name="getTrs2" finished-at="2024-01-25T10:43:12 IST" duration-ms="1890199" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: session deleted because of page crash
-from unknown error: cannot determine loading status
-from tab crashed
-  (Session info: chrome=120.0.6099.109)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'vivobook-asuslaptop-x512flc-x512fl', ip: '172.16.21.143', os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-36-generic', java.version: '17.0.7'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35507}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.17.0.2:4444/sessio..., se:cdpVersion: 120.0.6099.109, se:vnc: ws://172.17.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.17.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7103135612b708d15d928b0b70cea7d2
-*** Element info: {Using=xpath, value=(//div[@class='paragraph'])[2]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
-from unknown error: cannot determine loading status
-from tab crashed
-  (Session info: chrome=120.0.6099.109)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'vivobook-asuslaptop-x512flc-x512fl', ip: '172.16.21.143', os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-36-generic', java.version: '17.0.7'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35507}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.17.0.2:4444/sessio..., se:cdpVersion: 120.0.6099.109, se:vnc: ws://172.17.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.17.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7103135612b708d15d928b0b70cea7d2
-*** Element info: {Using=xpath, value=(//div[@class='paragraph'])[2]}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at com.Reg.TRS_Data.Getdata.getTrs2(Getdata.java:191)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method signature="getTrs2()[pri:5, instance:com.Reg.TRS_Data.Trsdata_Fb40_Heos@1af2d44a]" started-at="2024-01-25T10:55:43 IST" name="getTrs2" finished-at="2024-01-25T10:56:18 IST" duration-ms="34951" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTrs2 -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.Reg.TRS_Data.Getdata@1af2d44a]" started-at="2024-01-25T10:43:12 IST" name="close" finished-at="2024-01-25T10:43:12 IST" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.Reg.TRS_Data.Trsdata_Fb40_Heos@1af2d44a]" started-at="2024-01-25T10:56:18 IST" name="close" finished-at="2024-01-25T10:56:19 IST" duration-ms="935" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- com.Reg.TRS_Data.Getdata -->
+      </class> <!-- com.Reg.TRS_Data.Trsdata_Fb40_Heos -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
